@@ -10,7 +10,9 @@ public class InstanceApp {
 		p1.close();
 		
 		PrintWriter p2 = new PrintWriter("result2.txt");
-		p1.write("Hello 2");
-		p1.close();
+		p2.write("Hello 2");
+		p2.close();
+		p2.toString();
+		p2.write("hello 2");
 	}
 }
